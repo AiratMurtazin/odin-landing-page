@@ -1,0 +1,34 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+/* Variables */
+:root {
+	/* colors */
+	--main-bg-col: #1f2937;
+	--hero-main-txt: #f9faf8;
+	--hero-sec-txt: #e5e7eb;
+	--btn-col: #3882f6;
+	--info-hd-txt: #1f2937;
+	--quote-bg: #e5e7eb;
+	--quote-txt: #1f2937;
+}
+
+/* Header */
+
+.header {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header ul {
+	list-style: none;
+	display: flex;
+}
