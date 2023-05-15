@@ -30,9 +30,10 @@
 
 .header {
 	display: flex;
-	justify-content: space-around;
 	background-color: var(--main-bg-col);
 	color: var(--hero-sec-txt);
+	align-items: center;
+	justify-content: space-between;
 }
 
 .header-links {
@@ -40,9 +41,45 @@
 	display: flex;
 	width: 35%;
 	justify-content: space-between;
-	align-items: center;
 }
 
 .header-links li {
 	font-size: 0.85rem;
+}
+
+/* Desc */
+
+.desc {
+	padding: 8% 12% 8% 12%;
+	background-color: var(--main-bg-col);
+	display: flex;
+}
+
+.sign-up {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.img {
+	flex: 1;
+	background-color: grey;
+	color: var(--hero-sec-txt);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sign-up-title {
+	color: var(--hero-main-txt);
+}
+
+.sign-up-text {
+	color: var(--hero-sec-txt);
+}
+
+/* Utility classes */
+
+.pad {
+	padding: 0 12% 0 12%;
 }
