@@ -141,7 +141,26 @@
 	text-align: center;
 }
 
-/* Utility classes */
+/* Quote */
 
-.pad {
+.quote {
+	background-color: var(--quote-bg);
+	padding: 8% 30%;
 }
+.quote-body {
+	color: var(--quote-txt);
+	font-style: italic;
+	font-weight: 100;
+	font-size: 36px;
+	width: 40.5ch;
+}
+.quote-author {
+	color: var(--quote-txt);
+	font-weight: bolder;
+	text-align: right;
+	margin-top: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+/* TODO on a wide screen without developer tools second section is wrong */
+/* Utility classes */
