@@ -34,7 +34,7 @@
 	color: var(--hero-sec-txt);
 	align-items: center;
 	justify-content: space-between;
-	padding: 1% 12% 0 12%;
+	padding: 1% 13% 0 13%;
 }
 
 .header-links {
@@ -51,7 +51,7 @@
 /* Desc */
 
 .desc {
-	padding: 8% 12% 8% 12%;
+	padding: 8% 13% 8% 13%;
 	background-color: var(--main-bg-col);
 	display: flex;
 }
@@ -61,6 +61,7 @@
 	display: flex;
 	flex-direction: column;
 	margin-right: 1rem;
+	gap: 0.3rem;
 }
 
 .img {
@@ -80,6 +81,7 @@
 .sign-up-title {
 	color: var(--hero-main-txt);
 	font-size: 48px;
+	width: 12ch;
 }
 
 .sign-up-text {
@@ -145,7 +147,7 @@
 
 .quote {
 	background-color: var(--quote-bg);
-	padding: 8% 30%;
+	padding: 5% 25%;
 }
 .quote-body {
 	color: var(--quote-txt);
@@ -162,5 +164,4 @@
 	margin-right: 0.5rem;
 }
 
-/* TODO on a wide screen without developer tools second section is wrong */
 /* Utility classes */
