@@ -207,4 +207,12 @@ body,
 	border-radius: 0.5rem;
 	height: 80%;
 }
+
+.footer {
+	background-color: var(--main-bg-col);
+	text-align: center;
+	color: var(--hero-sec-txt);
+	padding: 1.2rem 0;
+}
+
 /* Utility classes */
