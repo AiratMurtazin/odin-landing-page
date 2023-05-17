@@ -7,6 +7,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html,
+.container,
+body,
+.sign-plate,
+.contact {
+	height: 100%;
+}
 
 .container {
 	display: flex;
@@ -164,4 +171,40 @@
 	margin-right: 0.5rem;
 }
 
+/* Blue div */
+
+.contact {
+	background-color: var(--btn-col);
+	color: var(--hero-sec-txt);
+	padding: 1.5% 3.5%;
+	margin: 5% 16%;
+	border-radius: 0.2rem;
+}
+
+.sign-plate {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sign-plate-text {
+	display: flex;
+	flex-direction: column;
+	gap: 1%;
+}
+
+.sign-plate-text-hd {
+}
+
+.sign-plate-text-txt {
+}
+
+.sign-plate-btn {
+	color: var(--hero-sec-txt);
+	background-color: transparent;
+	border: 1px solid var(--hero-sec-txt);
+	padding: 0 3%;
+	border-radius: 0.5rem;
+	height: 80%;
+}
 /* Utility classes */
